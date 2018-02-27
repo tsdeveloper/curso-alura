@@ -21,7 +21,7 @@
         <br>
         <br>
 		<h2>Listagem de Produtos</h2>
-        <a href="/produto/novo" class="btn btn-success">Novo</a>
+        <a href="/casadocodigo/produto/novo" class="btn btn-success">Novo</a>
 		<br>
 		<br>
 		<table class="table table-striped">

@@ -63,7 +63,7 @@ public class ProdutoController {
                 System.out.println("Error: " + error.toString());
             }
             ModelAndView modelAndView = new ModelAndView("produtos/novo");
-            modelAndView.addObject("msg", "Houve algum erro!");
+            modelAndView.addObject("msg", "Esses campos estão com algum erro!");
             modelAndView.addObject("typemsg", "danger");
             return modelAndView;
         }
